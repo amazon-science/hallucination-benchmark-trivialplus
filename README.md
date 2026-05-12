@@ -91,4 +91,6 @@ python verify_label_consistency.py Triviaplus_all_withnoise_cleaned_20260415.par
 
 ## License
 
-Apache-2.0
+This dataset is licensed under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+See the [LICENSE](LICENSE) file for the full license text.
