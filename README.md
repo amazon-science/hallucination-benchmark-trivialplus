@@ -71,7 +71,7 @@ See [DATA_DETAILS.md](DATA_DETAILS.md) for complete column descriptions, label a
 import pandas as pd
 
 # Load the dataset
-df = pd.read_parquet("Triviaplus_all_withnoise_cleaned_20260415.parquet")
+df = pd.read_parquet("triviaplus_dataset.parquet")
 
 # Filter by split
 train = df[df['split'] == 'train']
