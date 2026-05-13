@@ -54,7 +54,7 @@ Annotators were trained over two rounds with author audits. Low-performing annot
 
 ## File
 
-**`Triviaplus_all_withnoise_cleaned_20260415.parquet`** — Cleaned dataset with all annotations.
+**`triviaplus_dataset.parquet`** — Cleaned dataset with all annotations.
 
 See [DATA_DETAILS.md](DATA_DETAILS.md) for complete column descriptions, label aggregation logic, and label distributions.
 
