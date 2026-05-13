@@ -139,6 +139,6 @@ def verify(parquet_path: str) -> bool:
 
 
 if __name__ == "__main__":
-    path = sys.argv[1] if len(sys.argv) > 1 else "Triviaplus_all_withnoise_cleaned_20260415.parquet"
+    path = sys.argv[1] if len(sys.argv) > 1 else "triviaplus_dataset.parquet"
     ok = verify(path)
     sys.exit(0 if ok else 1)
