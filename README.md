@@ -1,6 +1,13 @@
 # TRIVIA+ Dataset
 
-**The first RAG-based hallucination detection benchmark that combines human-verified labels, long context (up to 94K chars — 7-33x longer than existing benchmarks), sentence-level annotations, and controlled label noise — satisfying all seven desiderata for hallucination detection evaluation.**
+[![arXiv](https://img.shields.io/badge/arXiv-2605.11330-b31b1b.svg)](https://arxiv.org/abs/2605.11330)
+
+**A rigorous benchmark for hallucination detection — built against the gaps in every existing one.**
+
+- 94K-char contexts (7–33x longer than prior benchmarks)
+- Human-verified, sentence-level labels
+- Controlled label noise for robustness testing
+- Satisfies all 7 desiderata for evaluation
 
 ## Dataset Overview
 
@@ -87,6 +94,19 @@ Run the label consistency check:
 
 ```bash
 python verify_label_consistency.py triviaplus_dataset.parquet
+```
+
+## Citation
+
+If you use this dataset, please cite our paper:
+
+```bibtex
+@article{chen2025rethinking,
+  title={Rethinking Evaluation for LLM Hallucination Detection: A Desiderata, A New RAG-based Benchmark, New Insights},
+  author={Chen, Wenbo and Padmanabhan, Veena and Giyahchi, Tootiya and Wong, Elaine and Akoglu, Leman},
+  journal={arXiv preprint arXiv:2605.11330},
+  year={2025}
+}
 ```
 
 ## License
