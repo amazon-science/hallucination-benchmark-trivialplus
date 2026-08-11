@@ -1,5 +1,7 @@
 # TRIVIA+ Dataset
 
+[![ACL Anthology](https://img.shields.io/badge/ACL%20Anthology-2026.acl--long.680-ed1c24.svg)](https://aclanthology.org/2026.acl-long.680.pdf)
+[![Amazon Science](https://img.shields.io/badge/Amazon%20Science-Publication-ff9900.svg)](https://www.amazon.science/publications/rethinking-evaluation-for-llm-hallucination-detection-a-desiderata-a-new-rag-based-benchmark-new-insights)
 [![arXiv](https://img.shields.io/badge/arXiv-2605.11330-b31b1b.svg)](https://arxiv.org/abs/2605.11330)
 
 **A rigorous benchmark for hallucination detection — built against the gaps in every existing one.**
@@ -101,11 +103,26 @@ python verify_label_consistency.py triviaplus_dataset.parquet
 If you use this dataset, please cite our paper:
 
 ```bibtex
-@article{chen2025rethinking,
-  title={Rethinking Evaluation for LLM Hallucination Detection: A Desiderata, A New RAG-based Benchmark, New Insights},
-  author={Chen, Wenbo and Padmanabhan, Veena and Giyahchi, Tootiya and Wong, Elaine and Akoglu, Leman},
-  journal={arXiv preprint arXiv:2605.11330},
-  year={2025}
+@inproceedings{chen-etal-2026-rethinking-evaluation,
+    title = "Rethinking Evaluation for {LLM} Hallucination Detection: A Desiderata, A New {RAG}-based Benchmark, New Insights",
+    author = "Chen, Wenbo  and
+      Padmanabhan, Veena  and
+      Giyahchi, Tootiya  and
+      Wong, Elaine  and
+      Akoglu, Leman",
+    editor = "Liakata, Maria  and
+      Moreira, Viviane P.  and
+      Zhang, Jiajun  and
+      Jurgens, David",
+    booktitle = "Proceedings of the 64th Annual Meeting of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.acl-long.680/",
+    doi = "10.18653/v1/2026.acl-long.680",
+    pages = "14912--14931",
+    ISBN = "979-8-89176-390-6"
 }
 ```
 
