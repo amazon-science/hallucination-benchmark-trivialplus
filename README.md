@@ -95,6 +95,7 @@ for idx, row in df.head(3).iterrows():
 Run the label consistency check:
 
 ```bash
+pip install -r requirements.txt
 python verify_label_consistency.py triviaplus_dataset.parquet
 ```
 
